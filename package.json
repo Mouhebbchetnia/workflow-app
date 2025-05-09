@@ -1,0 +1,33 @@
+{
+  "name": "workflow-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon Backend/app.js",
+    "dev:frontend": "vite",
+    "dev:backend": "nodemon Backend/app.js",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "bpmn-js": "^18.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-router-dom": "^5.3.4",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.9",
+    "vite": "^6.2.2"
+  }
+}

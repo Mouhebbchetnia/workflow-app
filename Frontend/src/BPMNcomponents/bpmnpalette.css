@@ -1,0 +1,9 @@
+.palette-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    cursor: move;
+  }

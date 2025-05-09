@@ -1,0 +1,21 @@
+# Ignorer les dépendances Node.js
+node_modules/
+
+# Ignorer les variables d'environnement
+.env
+
+# Ignorer les fichiers de configuration locaux
+*.local
+
+# Ignorer les fichiers de système (macOS)
+.DS_Store
+
+# Ignorer les dossiers de build
+dist/
+build/
+
+# Ignorer les logs
+*.log
+
+# Ignorer les fichiers de l'éditeur (VSCode)
+.vscode/
